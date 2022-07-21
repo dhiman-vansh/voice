@@ -1,0 +1,95 @@
+.product {
+  max-width: 1400px;
+  margin: 2% auto;
+  background-color: beige;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product section {
+  overflow: hidden;
+  min-width: 350px;
+  width: 40%;
+  line-height: 250%;
+  /* margin-top: 1%; */
+  /* border: 3px solid brown; */
+  padding: 1%;
+}
+
+#second {
+  margin-top: 2%;
+}
+
+.product section h4 {
+  margin: 5% 0px;
+}
+
+.product section button {
+  border: none;
+  color: aliceblue;
+  margin: 2% 0px;
+  padding: 0px 5%;
+  background-color: #285eab;
+  transition: 0.2s;
+}
+
+.product section button:hover {
+  background-color: aliceblue;
+  color: #285eab;
+}
+
+.about {
+  padding: 1%;
+}
+
+.about h1 {
+  text-align: center;
+}
+
+.about div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about div section {
+  width: 50%;
+  min-width: 360px;
+  padding: 2%;
+  /* text-align: center; */
+}
+
+.about div section figure {
+  overflow: hidden;
+}
+
+.about div section figure img {
+  border-radius: 1%;
+}
+
+.about div section figure img:hover {
+  transform: scale(1.2);
+  transition: 0.3s all ease;
+  opacity: 0.9;
+  cursor: pointer;
+}
+.why h2{
+  text-align: center;
+}
+.why div{
+  display: flex;
+  flex-wrap: wrap;
+}
+.why div section{
+  width: 30%;
+  box-shadow: 1px 1px 10px 1px grey;
+  min-width: 380px;
+  text-align: center;
+  padding: 2%;
+  margin: 2% auto;
+}
+.why div section:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
