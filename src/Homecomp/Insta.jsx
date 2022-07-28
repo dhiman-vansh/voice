@@ -8,15 +8,15 @@ export default function Insta(){
     const [user,setUser] = useState([])
 
     
-    useEffect(()=>{
+    // useEffect(()=>{
         
-            axios.get("https://v1.nocodeapi.com/vansh_dhiman/instagram/tUkHyBGGZKbQuwxW")
-            .then((response)=>{
-                console.log(response.data.data)
-                setUser(response.data.data)
-            })
+    //         axios.get("https://v1.nocodeapi.com/vansh_dhiman/instagram/tUkHyBGGZKbQuwxW")
+    //         .then((response)=>{
+    //             console.log(response.data.data)
+    //             setUser(response.data.data)
+    //         })
         
-    },[])
+    // },[])
 
     
 
@@ -29,7 +29,7 @@ export default function Insta(){
             data-aos-duration="1000"
             >
 
-        {user.map((value) =>{
+        {/* {user.map((value) =>{
             return(
                 <>
                 <section>
@@ -41,7 +41,7 @@ export default function Insta(){
                 </>
             )
         })
-        }
+        } */}
         </div>
 
         </>

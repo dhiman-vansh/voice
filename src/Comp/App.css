@@ -1,9 +1,18 @@
+@font-face{
+  font-family: atletico;
+  src: url(../Assest/Pangram-FullFamily-FreeForPersonalUse/Pangram-Medium.otf);
+}
+
 .product {
   max-width: 1400px;
   margin: 2% auto;
-  background-color: beige;
+  background-color: rgb(216, 235, 241);
   display: flex;
   flex-wrap: wrap;
+}
+
+.home {
+  /* background-image: url(../Assest/back.jpg); */
 }
 
 .product section {
@@ -38,24 +47,71 @@
   color: #285eab;
 }
 
+.aboutcont {
+
+  /* background-color: #92bdc2; */
+/* background-color: white; */
+  background-image: url(../Assest/green.jpeg); 
+
+/* background-image: url(../Assest/items/l2.jpg); */
+  color: white;
+  background-repeat: no-repeat;
+  background-size:cover;
+  /* background-position: 0%; */
+  /* background-image: linear-gradient(90deg, rgba(255, 255, 255, .07) 50%, transparent 50%),
+    linear-gradient(90deg, rgba(255, 255, 255, .13) 50%, transparent 50%),
+    linear-gradient(90deg, transparent 50%, rgba(255, 255, 255, .17) 50%),
+    linear-gradient(90deg, transparent 50%, rgba(255, 255, 255, .19) 50%);
+  background-size: 13px, 29px, 37px, 53px; */
+}
+
 .about {
+  /* background-image: url(../Assest/back.jpg); */
+  /* color: black; */
   padding: 1%;
 }
-
+.about h6{
+  color: #000000;
+  background-color: aliceblue;
+  border-radius: 20px;
+  /* padding: 1%; */
+}
 .about h1 {
   text-align: center;
+  /* font-size: 2.5vh; */
+
+  font-family: pangram;
+  margin-top: 50px;
 }
 
+/* 
 .about div {
   display: flex;
   flex-wrap: wrap;
-}
+} */
 
 .about div section {
-  width: 50%;
+  /* width: 50%; */
+  /* max-width: 1400px; */
+  margin: auto;
   min-width: 360px;
   padding: 2%;
+  text-align: center;
   /* text-align: center; */
+}
+
+.about h6 {
+  /* font-weight: bold  ; */
+  text-align: center;
+  font-family: pangram;
+  /* word-spacing: 5px; */
+  /* font-size: 1.4vh; */
+  padding: 2%;
+  line-height: 250%;
+  max-width: 1500px;
+  margin-top: 40px;
+  /* margin: auto; */
+  /* font-size: 200px; */
 }
 
 .about div section figure {
@@ -72,24 +128,172 @@
   opacity: 0.9;
   cursor: pointer;
 }
-.why h2{
+
+.why {
+  /* background-color: rgb (216, 235, 241) ; */
+  color: black;
+  background-image: url(../Assest/back.jpg);
+  /* background-color: transparent; */
+}
+
+.why h3 {
+  padding-top: 2%;
+  font-family: pangram;
   text-align: center;
 }
-.why div{
+
+.why div {
   display: flex;
   flex-wrap: wrap;
 }
-.why div section{
+
+.why div section {
+  /* background-color: #92bdc2;
   width: 30%;
   box-shadow: 1px 1px 10px 1px grey;
+   */
+  width: 33%;
   min-width: 380px;
   text-align: center;
   padding: 2%;
+  font-family: atletico;
   margin: 2% auto;
 }
+.why h4{
+  font-family: atletico;
+}
+.why p{
+  font-family: atletico;
+}
+
 .why div section:hover {
   transform: scale(1.05);
   cursor: pointer;
   transition: 0.3s ease;
 }
 
+
+.prodcat {
+  /* background-color: aqua; */
+  
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  /* background-color: #92bdc2;
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, .07) 50%, transparent 50%),
+    linear-gradient(90deg, rgba(255, 255, 255, .13) 50%, transparent 50%),
+    linear-gradient(90deg, transparent 50%, rgba(255, 255, 255, .17) 50%),
+    linear-gradient(90deg, transparent 50%, rgba(255, 255, 255, .19) 50%);
+  background-size: 13px, 29px, 37px, 53px; */
+}
+
+.prodcat section {
+  width: 20%;
+  padding: 1%;
+  min-width: 300px;
+  border-radius: 2%;
+  /* color: white; */
+  background-color: rgb(216, 235, 241);
+  text-transform: capitalize;
+  margin: 2% auto;
+  /* box-shadow: 0.5px 0.5px 5px 0.5px #000000; */
+  /* background-color: rgb(100, 100, 100) */
+  /* max-width: 500px; */
+  /* min-width: 30px; */
+  /* padding: 2%; */
+}
+
+.prodcat section:hover {
+  box-shadow: 1px 1px 20px 1px #000000;
+  /* cursor: pointer; */
+  transform: scale(1.01);
+}
+
+.prodcat h4 {
+  padding-top: 5%;
+  padding-bottom: 0px;
+}
+
+.prodhead {
+  padding: 2% 0px 0px 0px;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 3vh;
+  /* background-color: #92bdc2;
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, .07) 50%, transparent 50%),
+    linear-gradient(90deg, rgba(255, 255, 255, .13) 50%, transparent 50%),
+    linear-gradient(90deg, transparent 50%, rgba(255, 255, 255, .17) 50%),
+    linear-gradient(90deg, transparent 50%, rgba(255, 255, 255, .19) 50%);
+  background-size: 13px, 29px, 37px, 53px; */
+}
+
+.cart {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1400px;
+  /* margin: auto; */
+}
+
+.cart section {
+  width: 100%;
+  background-color: rgb(216, 235, 241);
+  display: flex;
+  align-items: center;
+  padding: 2%;
+  text-transform: capitalize;
+}
+
+.cart img {
+  width: 20%;
+}
+
+.cartcont {
+  text-align: center;
+  padding: 2%;
+}
+
+.cartcont button {
+  /* text-align: center; */
+  margin: 20px;
+  padding: 0.5% 5%;
+  font-size: larger;
+}
+
+.contact {
+  text-align: center;
+  /* color: white; */
+  padding: 1%;
+  /* background-image: url(https://umacreatives.com/static/media/product.81261f6e.jpeg); */
+  /* /*  */
+  /* background-color: #92bdc2;
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, .07) 50%, transparent 50%),
+    linear-gradient(90deg, rgba(255, 255, 255, .13) 50%, transparent 50%),
+    linear-gradient(90deg, transparent 50%, rgba(255, 255, 255, .17) 50%),
+    linear-gradient(90deg, transparent 50%, rgba(255, 255, 255, .19) 50%);
+  background-size: 13px, 29px, 37px, 53px; 
+  background-color: rgb(216, 235, 241); */
+}
+
+.contact section {
+  padding: 2%;
+  /* display: flex; */
+}
+
+.contact h1 {
+  /* font-stretch:extra-expanded; */
+  /* margin: 2%; */
+  font-weight: 600;
+}
+
+.contact h4 {
+  margin: 3%;
+}
+
+.contact button {
+  padding: 0.5% 3%;
+
+}
+
+.call {
+  display: flex;
+}

@@ -11,7 +11,7 @@ export default function Category() {
     return(
         <>
         <div className="categ">
-        <h1>
+        {/* <h1>
             SHOP BY GENDER
         </h1>
         <div data-aos="fade-up"
@@ -31,7 +31,7 @@ export default function Category() {
             </section>
 
 
-        </div>
+        </div> */}
         </div>
         </>
     )

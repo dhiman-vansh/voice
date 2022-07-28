@@ -88,16 +88,19 @@ html{scroll-behavior: smooth;}
 .card img:hover{
     transform: scale(1.2);
 } */
+.cardcomp{
+    padding: 2% 5%;
+}
 .cardcont{
     /* background-color: aqua; */
     /* background-color: #285eab; */
     text-align: center;
-    padding: 5% 0px;
-    max-width: 1600px;
-    padding-left: 4%;
+    /* display: flex; */
+    /* padding: 5% 0px; */
+    /* max-width: 1600px; */
+    /* padding-left: 4%; */
     margin: 0px auto;
 }
-
 .collect{
     text-align: center;
     /* background-color: #c9dcf0; */
@@ -126,7 +129,7 @@ html{scroll-behavior: smooth;}
 }
 .collect img:hover{
     cursor: pointer;
-    transform:rotate(1deg);
+    /* transform:rotate(1deg); */
     box-shadow: 1px 1px 10px 1px grey;
     cursor: pointer;
 }
@@ -210,6 +213,9 @@ html{scroll-behavior: smooth;}
     text-align: center;
     /* background-image: url(../Assests/items/banner.jpg); */
     padding: 2% 5%;
+    background-color: transparent;
+    /* background-color: black; */
+  /* background-image: url(../Assest/back.jpg); */
     /* width: 100%; */
     /* display: flex; */
 }

@@ -7,6 +7,9 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import Product from "./Comp/Product"
 import About from "./Comp/About"
+import Contact from './Comp/Contact';
+import Categ from './Comp/Categ';
+import Cart from './Comp/Cart';
 
 function App() {
   return (
@@ -15,8 +18,11 @@ function App() {
     <a href="https://wa.me/8755381346" class="whatsapp_float" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
     <Routes>
     <Route path='/' element={<Home />} />
-    <Route path='/pro' element={<Product />} />
+    <Route path='/pro/:id' element={<Product />} />
+    <Route path='/categ/:opt' element={<Categ />} />
     <Route path='/about' element={<About />} />
+    <Route path='/contact' element={<Contact />} />
+    <Route path='/cart' element={<Cart />} />
     </Routes>
     <Foot />
     </>

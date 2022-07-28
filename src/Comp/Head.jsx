@@ -56,20 +56,21 @@ export default function VerticalSwipeToSlide() {
        style={{backgroundColor:"white"}}
       >
   <Container>
-    <Navbar.Brand href="#home"> 
+    <Navbar.Brand href="/"> 
     <img src={logo} width="200px"  /> </Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav" style={{justifyContent:"center",marginLeft:"150px"}}>
       <Nav className="mr-auto" >
         <Nav.Link href="/"  style={{color:"#285eab"}}>Home</Nav.Link>
-        <Nav.Link href="/about" style={{color:"#285eab"}}>Category</Nav.Link>
-        <NavDropdown title="Collection" id="basic-nav-dropdown" >
-          <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+        {/* <Nav.Link href="/about" style={{color:"#285eab"}}>Category</Nav.Link> */}
+        <NavDropdown title="Category" id="basic-nav-dropdown" >
+          <NavDropdown.Item href="/categ/bands">bands</NavDropdown.Item>
+          <NavDropdown.Item href="/categ/necklace">necklace</NavDropdown.Item>
+          <NavDropdown.Item href="/categ/tops">tops</NavDropdown.Item>
           <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
         </NavDropdown>
         <Nav.Link href="/about" style={{color:"#285eab"}}>About Us</Nav.Link>
+        <Nav.Link href="/contact" style={{color:"#285eab"}}>Contact Us</Nav.Link>
 
       </Nav>
       <Nav>
