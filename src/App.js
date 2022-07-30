@@ -10,6 +10,7 @@ import About from "./Comp/About"
 import Contact from './Comp/Contact';
 import Categ from './Comp/Categ';
 import Cart from './Comp/Cart';
+import Verify from './Comp/Verify';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
     <Route path='/about' element={<About />} />
     <Route path='/contact' element={<Contact />} />
     <Route path='/cart' element={<Cart />} />
+    <Route path='/verify' element={<Verify />} />
     </Routes>
     <Foot />
     </>

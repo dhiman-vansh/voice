@@ -65,17 +65,17 @@ html{scroll-behavior: smooth;}
     margin: 0px 10px;
 }
 
+.ban .carousel-control-next-icon::after {
+    content: "";
+}
+.ban .carousel-control-prev-icon::after{
+    content: "";    
+}
 .slidecomp{
     background-image: url("https://d-themes.com/react/molla/demo-2/images/home/sliders/intro-bg.jpg");
     /* padding: 5% 0px; */
     /* background-color: #285eab; */
 
-}
-.carousel-control-next-icon::after {
-    content: none;
-    font-weight: 700;
-    font-family: "Font Awesome 6 Pro","Font Awesome 6 Free";
-    font-size: 1.7rem;
 }
 .slidecomp section{
     /* max-width:800px; */

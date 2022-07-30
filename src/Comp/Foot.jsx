@@ -8,6 +8,7 @@ import {
   MDBCol,
   MDBRow
 } from 'mdb-react-ui-kit';
+import "./App.css"
 
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
@@ -36,7 +37,7 @@ export default function App() {
           </a>
         </section>
 
-        <section className=''>
+        {/* <section className=''>
           <form action=''>
             <div className='row d-flex justify-content-center'>
               <div className='col-auto'>
@@ -56,20 +57,47 @@ export default function App() {
               </div>
             </div>
           </form>
-        </section>
+        </section> */}
 
-        <section className='mb-4'>
+        {/* <section className='mb-4'>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum repellat quaerat
             voluptatibus placeat nam, commodi optio pariatur est quia magnam eum harum corrupti dicta, aliquam
             sequi voluptate quas.
           </p>
-        </section>
+        </section> */}
 
-        {/* <section className=''>
+        <section className=''>
           <MDBRow>
             <MDBCol lg='3' md='6' className='mb-4 mb-md-0'>
-              <h5 className='text-uppercase'>Links</h5>
+              <h5 className='text-uppercase'>About Us</h5>
+
+              <ul className='list-unstyled mb-0'>
+                <li>
+                  <a href='/about#why' className='text-white'>
+                    UMA
+                  </a>
+                </li>
+                <li>
+                  <a href='/about#why' className='text-white'>
+                    What We Do
+                  </a>
+                </li>
+                <li>
+                  <a href='/about#why' className='text-white'>
+                    Mission
+                  </a>
+                </li>
+                <li>
+                  <a href='/about#why' className='text-white'>
+                    History
+                  </a>
+                </li>
+              </ul>
+            </MDBCol>
+
+            <MDBCol lg='3' md='6' className='mb-4 mb-md-0'>
+              <h5 className='text-uppercase'>Policies</h5>
 
               <ul className='list-unstyled mb-0'>
                 <li>
@@ -96,7 +124,7 @@ export default function App() {
             </MDBCol>
 
             <MDBCol lg='3' md='6' className='mb-4 mb-md-0'>
-              <h5 className='text-uppercase'>Links</h5>
+              <h5 className='text-uppercase'>Contact Us</h5>
 
               <ul className='list-unstyled mb-0'>
                 <li>
@@ -122,7 +150,7 @@ export default function App() {
               </ul>
             </MDBCol>
 
-            <MDBCol lg='3' md='6' className='mb-4 mb-md-0'>
+            {/* <MDBCol lg='3' md='6' className='mb-4 mb-md-0'>
               <h5 className='text-uppercase'>Links</h5>
 
               <ul className='list-unstyled mb-0'>
@@ -147,36 +175,9 @@ export default function App() {
                   </a>
                 </li>
               </ul>
-            </MDBCol>
-
-            <MDBCol lg='3' md='6' className='mb-4 mb-md-0'>
-              <h5 className='text-uppercase'>Links</h5>
-
-              <ul className='list-unstyled mb-0'>
-                <li>
-                  <a href='#!' className='text-white'>
-                    Link 1
-                  </a>
-                </li>
-                <li>
-                  <a href='#!' className='text-white'>
-                    Link 2
-                  </a>
-                </li>
-                <li>
-                  <a href='#!' className='text-white'>
-                    Link 3
-                  </a>
-                </li>
-                <li>
-                  <a href='#!' className='text-white'>
-                    Link 4
-                  </a>
-                </li>
-              </ul>
-            </MDBCol>
+            </MDBCol> */}
           </MDBRow>
-        </section> */}
+        </section>
       </MDBContainer>
 
       <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>

@@ -8,26 +8,31 @@ import { useState, useEffect } from "react";
 
 export default function Cardfunc() {
 
-  useEffect(() => {
-    makeAPICall();
-    { console.log('it runs ') }
-  }, [])
-
-  const [value, setValue] = useState([]);
-
   const makeAPICall = async () => {
     try {
       const response = await fetch('https://uma-zeb.herokuapp.com/dataget'
       );
       const data = await response.json();
       // console.log({ data })
-      setValue(data);
+      setValue(data.slice(-6));
+      // setCertain(value.slice(0,6))
+      // console.log( "Certain is ",certain)
     }
     catch (e) {
       console.log(e)
     }
   }
 
+  useEffect(() => {
+    makeAPICall();
+  }, [])
+
+  const [value, setValue] = useState([]);
+  // const [certain,setCertain] = useState([])
+
+
+  // const cetain  = value.slice(-1,-7)
+  // console.log(cetain  )          
 
   // const printpro = () =>{
   //   return(
@@ -53,6 +58,7 @@ export default function Cardfunc() {
   //     })
   //   )
   // }
+  // const cetain  = 0
 
 
   var settings = {
@@ -101,7 +107,9 @@ export default function Cardfunc() {
         data-aos-duration="1500"
       >
         <div className="cardcont">
-          <h2> TOP COLLECTIONS : </h2>
+          <h2> LATEST COLLECTIONS : </h2><br></br>
+          {/* { cetain = value.slice(-1, -7)} */}
+          {/* {console.log(certain)} */}
           {/* {console.log(`data is ${value[0].name}`)} */}
           <Slider {...settings}>
             {value.map((x) => {
@@ -109,7 +117,8 @@ export default function Cardfunc() {
                 <section>
                   <fig className='fig'><img src={x.url} width="90%" /></fig>
                   <h4>{x.name}</h4>
-                  <h5>{x.description}</h5>
+                  <h6>Category: {x.category}</h6>
+                  {/* <h5>{x.description}</h5> */}
                   <a href={`/pro/${x.id}`}>
                     <MDBBtn color='primary'>₹ {x.price}</MDBBtn>
                   </a>

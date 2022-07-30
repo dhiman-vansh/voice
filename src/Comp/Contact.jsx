@@ -4,30 +4,22 @@ export default function Contact() {
   return (
     <>
       <div className="contact">
-        <section>
-          <h1> OUR LOCATION</h1>
-          <h4> Getting here is easy. See our Google Map for detailed driving directions.</h4>
-          <a href="#locat">
-            <MDBBtn color='primary'>Maps</MDBBtn>
-          </a>
-        </section>
 
         <div className="form">
           <section>
-            <h3 style={{ fontSize: "40px", fontWeight: "600" }}>Give Us a Call On</h3>
+            <h3 style={{ fontSize: "30px", fontWeight: "600" }}>Give Us a Call On</h3>
+            <br></br>
             <div className="call">
-              <section>
-                <ol>+91-9068025401</ol>
-                <ol>+91-9068025301</ol>
-                <ol>+91-9411150250</ol>
-              </section>
-              <section>
-                <MDBIcon style={{ fontSize: "100px" }} icon="mobile" />
-              </section>
+              <MDBIcon fas icon="phone-alt" style={{fontSize:"30px"}} />
+              {/* <MDBIcon style={{ fontSize: "100px" }} icon="phone-alt" /> */}
+              <span>+91-9068025401    </span>
+              <span>+91-9068025301    </span>
+              <span>+91-9411150250  </span>
             </div>
 
 
           </section>
+          
           {/* <section>
             <form ref={form} onSubmit={sendEmail}>
               <label>Name</label>
@@ -43,6 +35,10 @@ export default function Contact() {
  */}
 
         </div>
+        <section>
+          <h1> OUR LOCATION</h1>
+          <h4> Getting here is easy. See our Google Map for detailed driving directions.</h4>
+        </section>
 
         <div className="locat" id="locat">
           <iframe

@@ -11,10 +11,6 @@
   flex-wrap: wrap;
 }
 
-.home {
-  /* background-image: url(../Assest/back.jpg); */
-}
-
 .product section {
   overflow: hidden;
   min-width: 350px;
@@ -54,7 +50,7 @@
   background-image: url(../Assest/green.jpeg); 
 
 /* background-image: url(../Assest/items/l2.jpg); */
-  color: white;
+  /* color: white; */
   background-repeat: no-repeat;
   background-size:cover;
   /* background-position: 0%; */
@@ -73,6 +69,7 @@
 .about h6{
   color: #000000;
   background-color: aliceblue;
+  opacity: 0.6;
   border-radius: 20px;
   /* padding: 1%; */
 }
@@ -83,7 +80,6 @@
   font-family: pangram;
   margin-top: 50px;
 }
-
 /* 
 .about div {
   display: flex;
@@ -191,11 +187,12 @@
   width: 20%;
   padding: 1%;
   min-width: 300px;
+  margin: 2%;
   border-radius: 2%;
   /* color: white; */
   background-color: rgb(216, 235, 241);
   text-transform: capitalize;
-  margin: 2% auto;
+  /* margin: 2% auto; */
   /* box-shadow: 0.5px 0.5px 5px 0.5px #000000; */
   /* background-color: rgb(100, 100, 100) */
   /* max-width: 500px; */
@@ -204,8 +201,8 @@
 }
 
 .prodcat section:hover {
-  box-shadow: 1px 1px 20px 1px #000000;
-  /* cursor: pointer; */
+  /* box-shadow: 1px 1px 20px 1px #000000; */
+  cursor: pointer;
   transform: scale(1.01);
 }
 
@@ -233,11 +230,15 @@
   max-width: 1400px;
   /* margin: auto; */
 }
-
+.cart a{
+  text-decoration: none;
+  color: inherit;
+}
 .cart section {
   width: 100%;
   background-color: rgb(216, 235, 241);
   display: flex;
+  flex-direction: row;
   align-items: center;
   padding: 2%;
   text-transform: capitalize;
@@ -275,25 +276,26 @@
 }
 
 .contact section {
-  padding: 2%;
+  /* padding: 2%; */
+  margin-top: 3%; 
   /* display: flex; */
 }
 
 .contact h1 {
   /* font-stretch:extra-expanded; */
   /* margin: 2%; */
-  font-weight: 600;
+  /* font-weight: 600; */
 }
 
 .contact h4 {
-  margin: 3%;
-}
-
-.contact button {
-  padding: 0.5% 3%;
-
+  margin-top: 2%;
 }
 
 .call {
   display: flex;
+  width: 50%;
+}
+
+.row a{
+  text-decoration: none;
 }

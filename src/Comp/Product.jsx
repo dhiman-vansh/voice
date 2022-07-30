@@ -71,11 +71,11 @@ export default function Product() {
               </section>
               <section id="second">
                 <h2 ><strong>{x.name}</strong></h2>
-                <h3>Category: {x.category}</h3>
+                <h4>Category: {x.category}</h4>
                 <h4>one of the best of our collections</h4>
                 <h3>PRICE : {x.price}</h3>
                 <MDBBtn color='success' onClick={savelocal(x)}>Add to Cart</MDBBtn>
-                {/* <h4>{x.description} <br></br></h4> */}
+                <h4>{x.descr}</h4>
                 <li>Light Weight</li>
                 <li>Durable</li>
                 <li>Long Lasting</li>

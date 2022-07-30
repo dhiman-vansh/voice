@@ -64,9 +64,9 @@ export default function VerticalSwipeToSlide() {
         <Nav.Link href="/"  style={{color:"#285eab"}}>Home</Nav.Link>
         {/* <Nav.Link href="/about" style={{color:"#285eab"}}>Category</Nav.Link> */}
         <NavDropdown title="Category" id="basic-nav-dropdown" >
-          <NavDropdown.Item href="/categ/bands">bands</NavDropdown.Item>
-          <NavDropdown.Item href="/categ/necklace">necklace</NavDropdown.Item>
-          <NavDropdown.Item href="/categ/tops">tops</NavDropdown.Item>
+          <NavDropdown.Item href="/categ/bangles">Bangles</NavDropdown.Item>
+          <NavDropdown.Item href="/categ/necklace">Necklace</NavDropdown.Item>
+          <NavDropdown.Item href="/categ/earings">Earings</NavDropdown.Item>
           <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
         </NavDropdown>
         <Nav.Link href="/about" style={{color:"#285eab"}}>About Us</Nav.Link>
@@ -75,7 +75,10 @@ export default function VerticalSwipeToSlide() {
       </Nav>
       <Nav>
     <Nav.Link href="/cart"><FaShoppingCart style={{fontSize:"35px",marginLeft:"10px"}} /> </Nav.Link>
-    <Nav.Link href="/cart"><IoLogInSharp style={{fontSize:"35px",marginLeft:"20px"}} /> </Nav.Link>
+    <Nav.Link href="/cart"><IoLogInSharp style={{fontSize:"35px",marginLeft:"20px"}} onClick={() => {
+      localStorage.clear();
+      window.location.reload(`false`)
+    }} /> </Nav.Link>
     </Nav>
     </Navbar.Collapse>
     <Nav>
