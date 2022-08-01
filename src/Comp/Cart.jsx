@@ -31,9 +31,8 @@ export default function Cart() {
 
   const checkoutHandler = async (amount) => {
     // console.log('amount is ',amount)
-    const { data: { order } } = await axios.post("https://uma-zeb.herokuapp.com/pay", {
-      amount
-    })
+    const { data: { order } } = await axios.post("https://uma-zeb.herokuapp.com/pay", 
+    { amount })
 
     console.log(order.amount, " is the amount")
 
@@ -60,15 +59,11 @@ export default function Cart() {
       }
     };
     const razor = new window.Razorpay(options);
-    // document.getElementById('rzp-button1').onclick = function (e) {
     razor.open();
-    // e.preventDefault();
-    // }
-
   }
 
+  var num =0
 
-  var num = 0
 
   return (
     <>
