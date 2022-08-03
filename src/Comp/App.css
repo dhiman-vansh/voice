@@ -1,12 +1,12 @@
-@font-face{
+/* @font-face{
   font-family: atletico;
   src: url(../Assest/Pangram-FullFamily-FreeForPersonalUse/Pangram-Medium.otf);
-}
+} */
 
 .product {
   max-width: 1400px;
   margin: 2% auto;
-  background-color: rgb(216, 235, 241);
+  /* background-color: rgb(216, 235, 241); */
   display: flex;
   flex-wrap: wrap;
 }
@@ -16,6 +16,7 @@
   min-width: 350px;
   width: 40%;
   line-height: 250%;
+  text-transform: capitalize;
   /* margin-top: 1%; */
   /* border: 3px solid brown; */
   padding: 1%;
@@ -152,14 +153,14 @@
   min-width: 380px;
   text-align: center;
   padding: 2%;
-  font-family: atletico;
+  /* font-family: atletico; */
   margin: 2% auto;
 }
 .why h4{
-  font-family: atletico;
+  /* font-family: atletico; */
 }
 .why p{
-  font-family: atletico;
+  /* font-family: atletico; */
 }
 
 .why div section:hover {
@@ -281,11 +282,11 @@
   /* display: flex; */
 }
 
-.contact h1 {
+/* .contact h1 { */
   /* font-stretch:extra-expanded; */
   /* margin: 2%; */
   /* font-weight: 600; */
-}
+/* } */
 
 .contact h4 {
   margin-top: 2%;

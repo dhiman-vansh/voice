@@ -13,7 +13,7 @@ export default function Collection() {
 
         
         <div className="collect">
-        <h1>GALLERY</h1>
+        {/* <h1>GALLERY</h1> */}
         <video
         // controls
          width={"100%"} 

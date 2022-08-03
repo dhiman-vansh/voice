@@ -27,7 +27,7 @@ export default function About() {
         <div>
           <section>
             <h1><MDBIcon fas icon="cogs" /></h1>
-            <h4>what do we do</h4>
+            <h4>What We Do</h4>
             <p>We, at Uma, bring handmade silver jewellery & guarantee the purity of the metal and stones. All the jewellery at Uma is crafted in 92.5% pure silver and high grade semi-precious stones.</p>
           </section>
           <section>
@@ -37,7 +37,7 @@ export default function About() {
           </section>
           <section>
             <h1><MDBIcon fas icon="history" /></h1>
-            <h4>History of Us</h4>
+            <h4>About Us</h4>
             <p>Uma was conceptualized in 2016 with a vision to bring handmade silver jewellery in vogue again. We run a boutique store in the quaint city of Dehradun and would love for you to visit us if you’re in town.</p>
           </section>
         </div>
