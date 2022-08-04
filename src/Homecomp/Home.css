@@ -278,3 +278,17 @@ html{scroll-behavior: smooth;}
     box-shadow: 1px 1px 10px 1px grey;
     cursor: pointer;
 }
+
+
+.header .dropdown-menu[data-bs-popper] {
+    /* display: flex; */
+    /* flex-direction: row; */
+    background-image: url(../Assest/back.jpg);
+    /* image-resolution:inherit; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 100%;
+    width: 500px;
+    left: 0;
+    margin-top: 0.125rem;
+}

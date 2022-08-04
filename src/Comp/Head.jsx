@@ -5,10 +5,16 @@ import "../Homecomp/Home.css"
 import logo from "../Assest/logo.png"
 import { FaShoppingCart } from 'react-icons/fa';
 import { IoLogInSharp } from 'react-icons/io5';
-
 import { Nav,Navbar,Container,NavDropdown } from "react-bootstrap";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
+
+
 export default function VerticalSwipeToSlide() {
+  
 
     // const [showBasic, setShowBasic] = useState(false);
 
@@ -62,13 +68,12 @@ export default function VerticalSwipeToSlide() {
     <Navbar.Collapse id="basic-navbar-nav" style={{justifyContent:"center",marginLeft:"150px"}}>
       <Nav className="mr-auto" >
         <Nav.Link href="/"  style={{color:"#285eab"}}>Home</Nav.Link>
-        {/* <Nav.Link href="/about" style={{color:"#285eab"}}>Category</Nav.Link> */}
         <NavDropdown title="Shop" id="basic-nav-dropdown" >
-          <NavDropdown.Item href="/categ/bangles">Bangles</NavDropdown.Item>
-          <NavDropdown.Item href="/categ/necklace">Necklace</NavDropdown.Item>
-          <NavDropdown.Item href="/categ/earings">Earings</NavDropdown.Item>
-          {/* <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item> */}
+          <NavDropdown.Item  data-aos="fade-up" href="/categ/bangles">Bangles</NavDropdown.Item>
+          <NavDropdown.Item  data-aos="fade-up" href="/categ/necklace">Necklace</NavDropdown.Item>
+          <NavDropdown.Item  data-aos="fade-up" href="/categ/earings">Earings</NavDropdown.Item>
         </NavDropdown>
+        {/* <Nav.Link > Shop</Nav.Link> */}
         <Nav.Link href="/about" style={{color:"#285eab"}}>About Us</Nav.Link>
         <Nav.Link href="/contact" style={{color:"#285eab"}}>Contact Us</Nav.Link>
 
