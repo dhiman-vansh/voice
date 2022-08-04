@@ -156,13 +156,6 @@
   /* font-family: atletico; */
   margin: 2% auto;
 }
-.why h4{
-  /* font-family: atletico; */
-}
-.why p{
-  /* font-family: atletico; */
-}
-
 .why div section:hover {
   transform: scale(1.05);
   cursor: pointer;
@@ -299,4 +292,9 @@
 
 .row a{
   text-decoration: none;
+}
+
+.policy{
+  max-width: 1400px;
+  margin: 5% auto;
 }

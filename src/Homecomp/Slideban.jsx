@@ -18,7 +18,7 @@ export default function App() {
   return (
     <>
       {/* <ElfsightWidget widgetID="55b43f4d-7685-46d5-ad42-18318c39c3f5" /> */}
-      <MDBCarousel showControls className='ban'>
+      <MDBCarousel showControls className='ban'>  
         <MDBCarouselInner>
           <MDBCarouselItem className='active'>
             <MDBCarouselElement src={b0} alt='...' />

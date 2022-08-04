@@ -11,6 +11,10 @@ import Contact from './Comp/Contact';
 import Categ from './Comp/Categ';
 import Cart from './Comp/Cart';
 import Verify from './Comp/Verify';
+import Privacy from './Comp/Policy/Privacy';
+import Terms from './Comp/Policy/Terms';
+import Return from './Comp/Policy/Return';
+import Ship from './Comp/Policy/Ship';
 
 function App() {
   return (
@@ -25,6 +29,10 @@ function App() {
     <Route path='/contact' element={<Contact />} />
     <Route path='/cart' element={<Cart />} />
     <Route path='/verify' element={<Verify />} />
+    <Route path='/privacy' element={<Privacy />} />
+    <Route path='/terms' element={<Terms />} />
+    <Route path='/return' element={<Return />} />
+    <Route path='/ship' element={<Ship />} />
     </Routes>
     <Foot />
     </>
