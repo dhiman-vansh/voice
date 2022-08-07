@@ -72,6 +72,9 @@ export default function VerticalSwipeToSlide() {
           <NavDropdown.Item  data-aos="fade-up" href="/categ/bangles">Bangles</NavDropdown.Item>
           <NavDropdown.Item  data-aos="fade-up" href="/categ/necklace">Necklace</NavDropdown.Item>
           <NavDropdown.Item  data-aos="fade-up" href="/categ/earings">Earings</NavDropdown.Item>
+          <NavDropdown.Item  data-aos="fade-up" href="/categ/earings">Bangles</NavDropdown.Item>
+          <NavDropdown.Item  data-aos="fade-up" href="/categ/earings">Anklets</NavDropdown.Item>
+          <NavDropdown.Item  data-aos="fade-up" href="/categ/earings">Rings</NavDropdown.Item>
         </NavDropdown>
         {/* <Nav.Link > Shop</Nav.Link> */}
         <Nav.Link href="/about" style={{color:"#285eab"}}>About Us</Nav.Link>
