@@ -18,7 +18,7 @@ export default function Home() {
         {/* <Cardcomp /> */}
         <Cardfunc />
         <Feat />
-        <Insta />
+        {/* <Insta /> */}
         <Review />
       </div>
 
