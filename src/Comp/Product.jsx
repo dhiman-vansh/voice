@@ -73,7 +73,7 @@ export default function Product() {
                 <h2 ><strong>{x.name}</strong></h2>
                 <h4>Category: {x.category}</h4>
                 <h4>one of the best of our collections</h4>
-                <h3>PRICE : {x.price}</h3>
+                <h3 style={{borderTop:"2px solid black", paddingTop:"4%"}}>PRICE : {x.price}</h3>
                 <MDBBtn color='success' onClick={savelocal(x)}>Add to Cart</MDBBtn>
                 <h4>{x.descr}</h4>
                 <li>Light Weight</li>
