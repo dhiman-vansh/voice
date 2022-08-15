@@ -280,19 +280,15 @@ html{scroll-behavior: smooth;}
 }
 
 
-.header .dropdown-menu[data-bs-popper] {
-    /* display: flex; */
-    /* flex-direction: row; */
-    /* image-resolution:inherit; */
-    /* background-image: url(../Assest/pic.jpeg); */
+/* .header .dropdown-menu[data-bs-popper] {
+    background-image: url(../Assest/pic.jpeg);
     background-size: contain;
     
     background-position: right;
-    height: 250px;
     background-repeat: no-repeat;
-    top: 100%;
     width: 300px;
-    padding: 30%;
+    padding: 20% ;
+    padding-right: 150%;
     left: 0;
     margin-top: 0.125rem;
-}
+} */

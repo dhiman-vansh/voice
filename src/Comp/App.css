@@ -234,6 +234,8 @@
 }
 .cart section {
   width: 100%;
+  /* background-color: whitesmoke; */
+  /* box-shadow: 5px 5px 10px 1px grey ; */
   /* background-color: rgb(216, 235, 241); */
   display: flex;
   flex-direction: row;
@@ -302,3 +304,26 @@
   max-width: 1400px;
   margin: 5% auto;
 }
+
+
+.dropdown-menu {
+  width: 400px !important;
+  height: 250px !important;
+}
+
+.dropdown-menu.show {
+  width: 500px;
+  height: 250px;
+  animation: flip 1s;
+}
+
+.header a{
+  text-decoration: none;
+  color: inherit;
+}
+
+@keyframes flip {
+  0% {
+     transform: perspective(400px) rotateX(-90deg);
+  }
+} 
