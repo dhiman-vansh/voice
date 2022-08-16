@@ -164,7 +164,7 @@
 
 
 .prodcat {
-  /* background-color: aqua; */
+  background-color: aqua;
   
   display: flex;
   flex-wrap: wrap;

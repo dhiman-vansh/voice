@@ -117,7 +117,7 @@ export default function Cardfunc() {
                 <section>
                   <fig className='fig'><img src={x.url} width="90%" /></fig>
                   <h4>{x.name}</h4>
-                  <h6>Category: {x.category}</h6>
+                  {/* <h6>Category: {x.category}</h6> */}
                   {/* <h5>{x.description}</h5> */}
                   <a href={`/pro/${x.id}`}>
                     <MDBBtn color='primary'>₹ {x.price}</MDBBtn>

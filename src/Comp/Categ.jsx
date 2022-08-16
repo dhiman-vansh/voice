@@ -41,7 +41,7 @@ export default function Categ() {
               <a href={`/pro/${x.id}`}>
               <img src={x.url} alt={x.category} width="100%" />
               <h4>{x.name}</h4>
-              <h5>{x.descr}</h5>
+              {/* <h5>{x.descr}</h5> */}
               {/* <h5>{x.category}</h5> */}
               <Nav.Link href={`/pro/${x.id}`} >
               <MDBBtn color='primary'>₹ {x.price}</MDBBtn>
