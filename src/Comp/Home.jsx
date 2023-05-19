@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <div className="home">
-        <Slideban />
+        {/* <Slideban /> */}
         <Category />
         <Collection />
         {/* <Cardcomp /> */}

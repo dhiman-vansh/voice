@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import "./Home.css"
-import { MDBCard, MDBCardBody, MDBCardTitle, MDBCardText, MDBCardImage, MDBBtn, MDBRipple } from 'mdb-react-ui-kit';
+// import { MDBCard, MDBCardBody, MDBCardTitle, MDBCardText, MDBCardImage, MDBBtn, MDBRipple } from ' mdb-react-ui-kit';
 import s1 from "../Assest/items/s1.jpg"
 import { useState, useEffect } from "react";
 
@@ -10,8 +10,7 @@ export default function Cardfunc() {
 
   const makeAPICall = async () => {
     try {
-      const response = await fetch('https://uma-zeb.herokuapp.com/dataget'
-      );
+      const response = await fetch('https://localhost:5000/dataget');
       const data = await response.json();
       // console.log({ data })
       setValue(data.slice(-6));
@@ -120,7 +119,7 @@ export default function Cardfunc() {
                   {/* <h6>Category: {x.category}</h6> */}
                   {/* <h5>{x.description}</h5> */}
                   <a href={`/pro/${x.id}`}>
-                    <MDBBtn color='primary'>₹ {x.price}</MDBBtn>
+                    {/* <MDBBtn color='primary'>₹ {x.price}</MDBBtn> */}
                   </a>
                 </section>
               </div>)

@@ -1,12 +1,12 @@
 import React from 'react';
 
-import {
-  MDBCarousel,
-  MDBCarouselInner,
-  MDBCarouselItem,
-  MDBCarouselElement,
-} from 'mdb-react-ui-kit';
-// import { ElfsightWidget } from 'react-elfsight-widget';
+// import {
+//   MDBCarousel,
+//   MDBCarouselInner,
+//   MDBCarouselItem,
+//   MDBCarouselElement,
+// } from 'mdb-react-ui-kit';
+// // import { ElfsightWidget } from 'react-elfsight-widget';
 
 import b0 from "../Assest/banner/ban4.jpeg"
 import b1 from "../Assest/banner/ban1.jpeg"
@@ -34,7 +34,7 @@ export default function App() {
         </MDBCarouselInner>
       </MDBCarousel> */}
 
-      <MDBCarousel showControls className='ban'>
+      {/* <MDBCarousel showControls className='ban'>
         <MDBCarouselInner>
           <MDBCarouselItem className='active'>
             <MDBCarouselElement src={b0} alt='...' />
@@ -49,7 +49,7 @@ export default function App() {
             <MDBCarouselElement src={b3} alt='...' />
           </MDBCarouselItem>
         </MDBCarouselInner>
-      </MDBCarousel>
+      </MDBCarousel> */}
     </>
 
   );

@@ -327,3 +327,42 @@
      transform: perspective(400px) rotateX(-90deg);
   }
 } 
+
+.transcript {
+  position: fixed;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  /* justify-content: flex-start; */
+  /* height: 30vh; */
+  /* border-radius: 20%; */
+  width: 30vh;
+  bottom: 0px ;
+  right: 0px;
+}
+.transcript p{
+  background-color: aliceblue;
+  width: 100%;
+  /* float: right; */
+  /* align-self: stretch; */
+  text-align: right;
+}
+.transcript div{
+  height: 20vh;
+  padding-top: 20px;
+}
+.transcript p button {
+  border: none;
+  /* float: right;overflow: visible; */
+  background-color: rgb(173, 210, 243);
+  border-radius: 10%;
+  margin: 10px;
+}
+.transcript span{
+  height: 20px;
+  z-index: 100;
+  /* display: block; */
+  padding-top: 10px;
+  /* float:inline-start; */
+}
